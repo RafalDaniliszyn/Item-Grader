@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/add}" method="post">
+    <center>
+
+    <p>Name<input type="text" th:field="${newItem.name}" /></p>
+
+    <p><input type="submit" value="add new Item" /></p>
+    </center>
+</form>
+</body>
+</html>

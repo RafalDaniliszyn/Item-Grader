@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Spring CMS</title>
+
+</head>
+<body>
+<form th:action="@{/register/sendkey/confirm}" method="post">
+    <center>
+        <p><input type="text" th:field="${confirm.key}" placeholder="Enter your confirmation key"/></p>
+        <input type="hidden" th:field="${user.userIp}" >
+        <p><input type="submit" value="Confirm" /></p>
+
+    </center>
+</form>
+</body>
+</html>
