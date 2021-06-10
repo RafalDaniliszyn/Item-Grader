@@ -6,3 +6,4 @@ Project is created with:
 * Spring Boot
 * PostgreSQL
 * Hibernate
+* REST API
