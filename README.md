@@ -16,7 +16,7 @@ Project is created with:
 # Description:
 
 ## registration
-* registration includes automatic sending of a verification code
+* registration includes automatic mail sending with a verification code
 * account verification
 
 ## adding a rating
