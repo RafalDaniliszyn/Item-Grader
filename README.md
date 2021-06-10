@@ -20,7 +20,7 @@ Project is created with:
 * account verification
 
 ## adding a rating
-*checking if a rating has already been added
+* checking if a rating has already been added
 
 ## adding an item
 
